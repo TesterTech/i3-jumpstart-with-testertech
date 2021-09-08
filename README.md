@@ -3,9 +3,9 @@ Code for the YT video https://www.youtube.com/watch?v=XeGjeEPlnQM
 
 ## Installation (Fedora)
 ```
-sudo dnf install -y i3 i3status dmenu i3lock rofi feh light redshift-gtk redshift copyq arandr 
+sudo dnf install -y i3 i3status dmenu i3lock rofi feh light redshift-gtk redshift copyq arandr compton
 ```
-### i3 volume
+### i3 volume (optional)
 - https://github.com/hastinbe/i3-volume
 
 ## Aliasses
@@ -21,11 +21,11 @@ alias rexvt='xrdb ~/.Xresources && pkill urxvt'
 
 ## Configs 
 - Note: must be placed in the ~/.config directory, be carefull when overwriting existing files, because the provided files are purely based on my own personal setup.
-- [config/i3/config](i3 config)
-- [Xresources](.Xresources)
-- [config/polybar/config](Polybarconfig)
-- [config/compton.conf](Compton)
-- For some more info, can also look at [https://github.com/TesterTech/dotfiles](dotfiles used in Fedora i3 spin TesterTech video)
+- [i3 config](./config/i3/config)
+- [.Xresources](./Xresources)
+- [Polybarconfig](./config/polybar/config)
+- [Compton](./config/compton.conf)
+- For some more info, can also look at [dotfiles used in Fedora i3 spin TesterTech video](https://github.com/TesterTech/dotfiles)
 
 ### OPTIONAL i3 Gaps
 - Basically i3 but with space between the tiles 
