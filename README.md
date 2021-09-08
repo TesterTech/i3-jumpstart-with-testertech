@@ -19,11 +19,13 @@ alias polyconf='vim ~/.config/polybar/config'
 alias rexvt='xrdb ~/.Xresources && pkill urxvt'
 ```
 
-## Configs
-- i3 config
-- .Xresources
-- Polybarconfig
-- Compton
+## Configs 
+- Note: must be placed in the ~/.config directory, be carefull when overwriting existing files, because the provided files are purely based on my own personal setup.
+- [config/i3/config](i3 config)
+- [Xresources](.Xresources)
+- [config/polybar/config](Polybarconfig)
+- [config/compton.conf](Compton)
+- For some more info, can also look at [https://github.com/TesterTech/dotfiles](dotfiles used in Fedora i3 spin TesterTech video)
 
 ### OPTIONAL i3 Gaps
 - Basically i3 but with space between the tiles 
